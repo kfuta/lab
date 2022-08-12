@@ -13,9 +13,6 @@ class Television:
     def __init__(self) -> None:
         """
         Constructor to create initial state of a television object.
-        :param self.__channel: the television's initial channel is 0.
-        :param self.__volume: the television's initial volume is 0.
-        :param self.__status: the television is initially off (false).
         """
         self.__channel: int = Television.MIN_CHANNEL
         self.__volume: int = Television.MIN_VOLUME
